@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0" xmlns:m="http://ant.apache.org/ivy/maven">
+	<info organisation=""
+		module="habotDAO"
+		revision="1.0"
+		status="integration"
+		publication="20140219111441"
+	/>
+	<configurations>
+		<conf name="archives" visibility="public" description="Configuration for archive artifacts."/>
+		<conf name="compile" visibility="private" description="Classpath for compiling the main sources."/>
+		<conf name="default" visibility="public" description="Configuration for default artifacts." extends="runtime"/>
+		<conf name="runtime" visibility="private" description="Classpath for running the compiled main classes." extends="compile"/>
+		<conf name="testCompile" visibility="private" description="Classpath for compiling the test sources." extends="compile"/>
+		<conf name="testRuntime" visibility="private" description="Classpath for running the compiled test classes." extends="runtime,testCompile"/>
+	</configurations>
+	<publications>
+		<artifact name="habotDAO" type="jar" ext="jar" conf="archives,runtime"/>
+	</publications>
+	<dependencies>
+		<dependency org="commons-collections" name="commons-collections" rev="3.2" conf="compile->default"/>
+		<dependency org="mysql" name="mysql-connector-java" rev="5.1.28" conf="compile->default"/>
+		<dependency org="log4j" name="log4j" rev="1.2.17" conf="compile->default"/>
+		<dependency org="com.sun.xml.bind" name="jaxb-xjc" rev="2.2.7.RELEASE" conf="compile->default"/>
+		<dependency org="com.sun.xml.bind" name="jaxb-xjc" rev="2.2.7" conf="compile->default"/>
+		<dependency org="org.springframework" name="spring-core" rev="4.0.1.RELEASE" conf="compile->default"/>
+		<dependency org="org.springframework" name="spring-context" rev="4.0.1.RELEASE" conf="compile->default"/>
+		<dependency org="org.springframework" name="spring-jdbc" rev="4.0.1.RELEASE" conf="compile->default"/>
+		<dependency org="junit" name="junit" rev="4.+" conf="testCompile->default"/>
+	</dependencies>
+</ivy-module>
