@@ -13,7 +13,14 @@ public class NetworkNode {
 	
 	private String nodeId;
 	private Point2D.Double location;
+	public boolean visited=false;
 	
+	public NetworkNode(String nodeId) {
+		this.nodeId = nodeId;
+	}
+	
+	public NetworkNode() {
+	}
 	
 	public String getNodeId() {
 		return nodeId;

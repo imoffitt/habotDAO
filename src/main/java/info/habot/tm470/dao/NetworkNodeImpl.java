@@ -5,6 +5,7 @@ import info.habot.tm470.dao.interfaces.NetworkNodeDAO;
 import info.habot.tm470.dao.pojo.NetworkNode;
 import info.habot.tm470.dao.wrapper.NetworkNodeWrapper;
 
+import java.util.HashMap;
 import java.util.List;
 
 import javax.sql.DataSource;
@@ -71,6 +72,22 @@ public class NetworkNodeImpl implements NetworkNodeDAO {
 		List<NetworkNode> networkNodes = jdbcTemplateObject.query(SQL,
 				new NetworkNodeWrapper());
 		return networkNodes;
+	}
+	
+	/**
+	 * @return HashMap<String, NetworkNode>
+	 */
+	public HashMap<String, NetworkNode> getNetworkNodes() {
+		String SQL = "select * from Network_Nodes";
+		List<NetworkNode> networkNodeList = jdbcTemplateObject.query(SQL,
+				new NetworkNodeWrapper());
+		
+		HashMap<String, NetworkNode> networkNodeMap = new HashMap<String, NetworkNode> (networkNodeList.size());
+		for (NetworkNode networkNode : networkNodeList) {
+			networkNodeMap.put(networkNode.getNodeId(), networkNode);
+		}
+		
+		return networkNodeMap;
 	}
 
 	public void delete(Integer id) {

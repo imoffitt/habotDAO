@@ -1,13 +1,11 @@
 package info.habot.tm470.main;
+import java.awt.geom.Point2D;
+
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import info.habot.tm470.dao.NetworkNodeImpl;
 import info.habot.tm470.dao.pojo.NetworkNode;
-
-import java.awt.Point;
-import java.awt.geom.Point2D;
-import java.util.List;
 
 
 public class MainApp {
