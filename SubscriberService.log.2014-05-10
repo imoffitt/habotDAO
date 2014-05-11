@@ -1,0 +1,102 @@
+[ INFO] 20:26:23 ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5cea79f8: startup date [Sat May 10 20:26:23 BST 2014]; root of context hierarchy
+[ INFO] 20:26:23 XmlBeanDefinitionReader - Loading XML bean definitions from URL [file:/D:/workspace/habotDAO/target/classes/Beans.xml]
+[ INFO] 20:27:59 ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5cea79f8: startup date [Sat May 10 20:27:59 BST 2014]; root of context hierarchy
+[ INFO] 20:27:59 XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [src/main/resources/Beans.xml]
+[ INFO] 20:28:29 ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@25edb870: startup date [Sat May 10 20:28:29 BST 2014]; root of context hierarchy
+[ INFO] 20:28:29 XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [src/main/resources/Beans.xml]
+[ INFO] 20:29:07 ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@3ff2caf4: startup date [Sat May 10 20:29:07 BST 2014]; root of context hierarchy
+[ INFO] 20:29:33 ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@25edb870: startup date [Sat May 10 20:29:33 BST 2014]; root of context hierarchy
+[ INFO] 20:29:33 XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [classpath*resources*:Beans.xml]
+[ INFO] 20:30:07 ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5cea79f8: startup date [Sat May 10 20:30:07 BST 2014]; root of context hierarchy
+[ INFO] 20:30:07 XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [src/main/resources/Beans.xml]
+[ INFO] 20:30:31 ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5cea79f8: startup date [Sat May 10 20:30:31 BST 2014]; root of context hierarchy
+[ INFO] 20:30:31 XmlBeanDefinitionReader - Loading XML bean definitions from URL [file:/D:/workspace/habotDAO/target/classes/Beans.xml]
+[ INFO] 20:31:02 ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5cea79f8: startup date [Sat May 10 20:31:02 BST 2014]; root of context hierarchy
+[ INFO] 20:31:02 XmlBeanDefinitionReader - Loading XML bean definitions from URL [file:/D:/workspace/habotDAO/target/classes/Beans.xml]
+[ INFO] 20:32:04 ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@25edb870: startup date [Sat May 10 20:32:04 BST 2014]; root of context hierarchy
+[ INFO] 20:32:04 XmlBeanDefinitionReader - Loading XML bean definitions from URL [file:/D:/workspace/habotDAO/target/classes/Beans.xml]
+[ INFO] 20:32:04 DriverManagerDataSource - Loaded JDBC driver: com.mysql.jdbc.Driver
+[ INFO] 20:32:32 ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@dbb073: startup date [Sat May 10 20:32:32 BST 2014]; root of context hierarchy
+[ INFO] 20:32:32 XmlBeanDefinitionReader - Loading XML bean definitions from URL [file:/D:/workspace/habotDAO/target/classes/Beans.xml]
+[ INFO] 20:32:32 DriverManagerDataSource - Loaded JDBC driver: com.mysql.jdbc.Driver
+[ INFO] 20:43:40 ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@25edb870: startup date [Sat May 10 20:43:40 BST 2014]; root of context hierarchy
+[ INFO] 20:43:40 XmlBeanDefinitionReader - Loading XML bean definitions from URL [file:/D:/workspace/habotDAO/target/classes/Beans.xml]
+[ INFO] 20:43:40 DriverManagerDataSource - Loaded JDBC driver: com.mysql.jdbc.Driver
+[ INFO] 20:43:49 ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@77664cb5: startup date [Sat May 10 20:43:49 BST 2014]; root of context hierarchy
+[ INFO] 20:43:49 XmlBeanDefinitionReader - Loading XML bean definitions from URL [file:/D:/workspace/habotDAO/target/classes/Beans.xml]
+[ INFO] 20:43:49 DriverManagerDataSource - Loaded JDBC driver: com.mysql.jdbc.Driver
+[ INFO] 20:54:38 ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5cea79f8: startup date [Sat May 10 20:54:38 BST 2014]; root of context hierarchy
+[ INFO] 20:54:38 XmlBeanDefinitionReader - Loading XML bean definitions from URL [file:/D:/workspace/habotDAO/target/classes/Beans.xml]
+[ INFO] 20:54:38 DriverManagerDataSource - Loaded JDBC driver: com.mysql.jdbc.Driver
+[ INFO] 20:54:44 ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5d363c50: startup date [Sat May 10 20:54:44 BST 2014]; root of context hierarchy
+[ INFO] 20:54:44 XmlBeanDefinitionReader - Loading XML bean definitions from URL [file:/D:/workspace/habotDAO/target/classes/Beans.xml]
+[ INFO] 20:54:45 DriverManagerDataSource - Loaded JDBC driver: com.mysql.jdbc.Driver
+[ INFO] 20:59:26 ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@19e7d484: startup date [Sat May 10 20:59:26 BST 2014]; root of context hierarchy
+[ INFO] 20:59:26 XmlBeanDefinitionReader - Loading XML bean definitions from URL [file:/D:/workspace/habotDAO/target/classes/Beans.xml]
+[ INFO] 20:59:27 DriverManagerDataSource - Loaded JDBC driver: com.mysql.jdbc.Driver
+[ INFO] 20:59:27 XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+[ INFO] 20:59:27 SQLErrorCodesFactory - SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase]
+[ INFO] 20:59:51 ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@77664cb5: startup date [Sat May 10 20:59:51 BST 2014]; root of context hierarchy
+[ INFO] 20:59:51 XmlBeanDefinitionReader - Loading XML bean definitions from URL [file:/D:/workspace/habotDAO/target/classes/Beans.xml]
+[ INFO] 20:59:51 DriverManagerDataSource - Loaded JDBC driver: com.mysql.jdbc.Driver
+[ INFO] 20:59:52 XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+[ INFO] 20:59:52 SQLErrorCodesFactory - SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase]
+[ INFO] 21:00:24 ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@578567de: startup date [Sat May 10 21:00:24 BST 2014]; root of context hierarchy
+[ INFO] 21:00:24 XmlBeanDefinitionReader - Loading XML bean definitions from URL [file:/D:/workspace/habotDAO/target/classes/Beans.xml]
+[ INFO] 21:00:24 DriverManagerDataSource - Loaded JDBC driver: com.mysql.jdbc.Driver
+[ INFO] 21:00:25 XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+[ INFO] 21:00:25 SQLErrorCodesFactory - SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase]
+[ INFO] 21:00:36 ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@25edb870: startup date [Sat May 10 21:00:36 BST 2014]; root of context hierarchy
+[ INFO] 21:00:36 XmlBeanDefinitionReader - Loading XML bean definitions from URL [file:/D:/workspace/habotDAO/target/classes/Beans.xml]
+[ INFO] 21:00:36 DriverManagerDataSource - Loaded JDBC driver: com.mysql.jdbc.Driver
+[ INFO] 21:00:37 XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+[ INFO] 21:00:37 SQLErrorCodesFactory - SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase]
+[ INFO] 21:22:12 ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@77664cb5: startup date [Sat May 10 21:22:12 BST 2014]; root of context hierarchy
+[ INFO] 21:22:12 XmlBeanDefinitionReader - Loading XML bean definitions from URL [file:/D:/workspace/habotDAO/target/classes/Beans.xml]
+[ INFO] 21:22:12 DriverManagerDataSource - Loaded JDBC driver: com.mysql.jdbc.Driver
+[ INFO] 21:23:39 ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@77664cb5: startup date [Sat May 10 21:23:39 BST 2014]; root of context hierarchy
+[ INFO] 21:23:39 XmlBeanDefinitionReader - Loading XML bean definitions from URL [file:/D:/workspace/habotDAO/target/classes/Beans.xml]
+[ INFO] 21:23:39 DriverManagerDataSource - Loaded JDBC driver: com.mysql.jdbc.Driver
+[ INFO] 21:25:28 ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5d363c50: startup date [Sat May 10 21:25:28 BST 2014]; root of context hierarchy
+[ INFO] 21:25:28 XmlBeanDefinitionReader - Loading XML bean definitions from URL [file:/D:/workspace/habotDAO/target/classes/Beans.xml]
+[ INFO] 21:25:28 DriverManagerDataSource - Loaded JDBC driver: com.mysql.jdbc.Driver
+[ INFO] 21:25:41 ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@77664cb5: startup date [Sat May 10 21:25:41 BST 2014]; root of context hierarchy
+[ INFO] 21:25:41 XmlBeanDefinitionReader - Loading XML bean definitions from URL [file:/D:/workspace/habotDAO/target/classes/Beans.xml]
+[ INFO] 21:25:41 DriverManagerDataSource - Loaded JDBC driver: com.mysql.jdbc.Driver
+[ INFO] 21:26:08 ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@43313365: startup date [Sat May 10 21:26:08 BST 2014]; root of context hierarchy
+[ INFO] 21:26:08 XmlBeanDefinitionReader - Loading XML bean definitions from URL [file:/D:/workspace/habotDAO/target/classes/Beans.xml]
+[ INFO] 21:26:08 DriverManagerDataSource - Loaded JDBC driver: com.mysql.jdbc.Driver
+[ INFO] 21:26:09 XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+[ INFO] 21:26:09 SQLErrorCodesFactory - SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase]
+[ INFO] 21:26:17 ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@13b1d7ff: startup date [Sat May 10 21:26:17 BST 2014]; root of context hierarchy
+[ INFO] 21:26:17 XmlBeanDefinitionReader - Loading XML bean definitions from URL [file:/D:/workspace/habotDAO/target/classes/Beans.xml]
+[ INFO] 21:26:17 DriverManagerDataSource - Loaded JDBC driver: com.mysql.jdbc.Driver
+[ INFO] 21:26:46 ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@43313365: startup date [Sat May 10 21:26:46 BST 2014]; root of context hierarchy
+[ INFO] 21:26:46 XmlBeanDefinitionReader - Loading XML bean definitions from URL [file:/D:/workspace/habotDAO/target/classes/Beans.xml]
+[ INFO] 21:26:46 DriverManagerDataSource - Loaded JDBC driver: com.mysql.jdbc.Driver
+[ INFO] 21:26:47 XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+[ INFO] 21:26:47 SQLErrorCodesFactory - SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase]
+[ INFO] 21:26:52 ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@578567de: startup date [Sat May 10 21:26:52 BST 2014]; root of context hierarchy
+[ INFO] 21:26:52 XmlBeanDefinitionReader - Loading XML bean definitions from URL [file:/D:/workspace/habotDAO/target/classes/Beans.xml]
+[ INFO] 21:26:52 DriverManagerDataSource - Loaded JDBC driver: com.mysql.jdbc.Driver
+[ INFO] 21:27:21 ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@43313365: startup date [Sat May 10 21:27:21 BST 2014]; root of context hierarchy
+[ INFO] 21:27:21 XmlBeanDefinitionReader - Loading XML bean definitions from URL [file:/D:/workspace/habotDAO/target/classes/Beans.xml]
+[ INFO] 21:27:21 DriverManagerDataSource - Loaded JDBC driver: com.mysql.jdbc.Driver
+[ INFO] 21:27:44 ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@dbb073: startup date [Sat May 10 21:27:44 BST 2014]; root of context hierarchy
+[ INFO] 21:27:44 XmlBeanDefinitionReader - Loading XML bean definitions from URL [file:/D:/workspace/habotDAO/target/classes/Beans.xml]
+[ INFO] 21:27:44 DriverManagerDataSource - Loaded JDBC driver: com.mysql.jdbc.Driver
+[ INFO] 21:28:41 ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@13b1d7ff: startup date [Sat May 10 21:28:41 BST 2014]; root of context hierarchy
+[ INFO] 21:28:41 XmlBeanDefinitionReader - Loading XML bean definitions from URL [file:/D:/workspace/habotDAO/target/classes/Beans.xml]
+[ INFO] 21:28:42 DriverManagerDataSource - Loaded JDBC driver: com.mysql.jdbc.Driver
+[ INFO] 21:29:46 ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@dbb073: startup date [Sat May 10 21:29:46 BST 2014]; root of context hierarchy
+[ INFO] 21:29:46 XmlBeanDefinitionReader - Loading XML bean definitions from URL [file:/D:/workspace/habotDAO/target/classes/Beans.xml]
+[ INFO] 21:29:46 DriverManagerDataSource - Loaded JDBC driver: com.mysql.jdbc.Driver
+[ INFO] 21:32:40 ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@25edb870: startup date [Sat May 10 21:32:40 BST 2014]; root of context hierarchy
+[ INFO] 21:32:40 XmlBeanDefinitionReader - Loading XML bean definitions from URL [file:/D:/workspace/habotDAO/target/classes/Beans.xml]
+[ INFO] 21:32:40 DriverManagerDataSource - Loaded JDBC driver: com.mysql.jdbc.Driver
+[ INFO] 21:32:46 ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5d363c50: startup date [Sat May 10 21:32:46 BST 2014]; root of context hierarchy
+[ INFO] 21:32:46 XmlBeanDefinitionReader - Loading XML bean definitions from URL [file:/D:/workspace/habotDAO/target/classes/Beans.xml]
+[ INFO] 21:32:46 DriverManagerDataSource - Loaded JDBC driver: com.mysql.jdbc.Driver
+[ INFO] 21:33:36 ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@578567de: startup date [Sat May 10 21:33:36 BST 2014]; root of context hierarchy
+[ INFO] 21:33:37 XmlBeanDefinitionReader - Loading XML bean definitions from URL [file:/D:/workspace/habotDAO/target/classes/Beans.xml]
+[ INFO] 21:33:37 DriverManagerDataSource - Loaded JDBC driver: com.mysql.jdbc.Driver

@@ -68,7 +68,7 @@ public class NetworkNodeImpl implements NetworkNodeDAO {
 	 * @see com.habot.tm470.interfaces.NetworkNodeDAO#listNetworkNode()
 	 */
 	public List<NetworkNode> listNetworkNode() {
-		String SQL = "select * from Network_Nodes";
+		String SQL = "select nodeId, X(location) AS x, Y(location) AS y from Network_Nodes";
 		List<NetworkNode> networkNodes = jdbcTemplateObject.query(SQL,
 				new NetworkNodeWrapper());
 		return networkNodes;
