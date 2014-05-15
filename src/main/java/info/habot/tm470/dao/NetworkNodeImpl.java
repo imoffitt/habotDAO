@@ -78,7 +78,7 @@ public class NetworkNodeImpl implements NetworkNodeDAO {
 	 * @return HashMap<String, NetworkNode>
 	 */
 	public HashMap<String, NetworkNode> getNetworkNodes() {
-		String SQL = "select * from Network_Nodes";
+		String SQL = "select nodeId, X(location) AS x, Y(location) AS y from Network_Nodes";
 		List<NetworkNode> networkNodeList = jdbcTemplateObject.query(SQL,
 				new NetworkNodeWrapper());
 		

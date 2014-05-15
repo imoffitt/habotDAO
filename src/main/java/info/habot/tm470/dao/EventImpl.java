@@ -10,8 +10,10 @@ import org.springframework.stereotype.Repository;
 
 import info.habot.tm470.dao.interfaces.EventDAO;
 import info.habot.tm470.dao.pojo.FusedSensorData;
+import info.habot.tm470.dao.pojo.NetworkLink;
 import info.habot.tm470.dao.pojo.StrategicEvent;
 import info.habot.tm470.dao.wrapper.EventWrapper;
+import info.habot.tm470.dao.wrapper.NetworkLinkWrapper;
 
 
 /**
@@ -34,6 +36,7 @@ public class EventImpl implements EventDAO {
 		this.jdbcTemplateObject = new JdbcTemplate(dataSource);
 	}
 	
+
 	/* (non-Javadoc)
 	 * @see info.habot.tm470.dao.interfaces.EventDAO#getActiveEvents()
 	 */
@@ -44,5 +47,19 @@ public class EventImpl implements EventDAO {
 		List<StrategicEvent> strategicEventList = jdbcTemplateObject.query(SQL, new Object[] {},
 				new EventWrapper());
 		return strategicEventList;
+	}
+	
+	/**
+	 * @param eventId - Strategic Event Identifier
+	 * @return Strategic Event
+	 */
+	public StrategicEvent getStrategicEvent(int eventId) {
+		
+		String SQL = "select * from Event where event_id = ?";
+		
+		StrategicEvent strategicEvent = jdbcTemplateObject.queryForObject(SQL,
+				new Object[] { eventId }, new EventWrapper());
+		
+		return strategicEvent;
 	}
 }

@@ -17,4 +17,9 @@ public interface EventDAO {
 	    * This method will return a list of all events that are active.
 	    */
 	   public List<StrategicEvent> getActiveEvents();
+	   
+	   /** 
+	    * This method will return a list of all events that are active.
+	    */
+	   public StrategicEvent getStrategicEvent(int eventId);
 }
