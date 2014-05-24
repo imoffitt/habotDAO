@@ -63,7 +63,7 @@ public class SqlLookupBean implements Serializable {
 
 	public ArrayList<Map<String, Object>> getValue(String sSQL) {
 
-		log.debug("SQL=" + sSQL);
+//		log.debug("SQL=" + sSQL);
 //		logText = logText + sSQL + "<br>";
 
 		ArrayList<Map<String, Object>> vResultList = null;
@@ -72,7 +72,7 @@ public class SqlLookupBean implements Serializable {
 			try {
 				getConnection();
 			} catch (SQLException e) {
-				log.error("47=" + e.getMessage());
+//				log.error("47=" + e.getMessage());
 				logText = logText + "47=" + e.getMessage() + "<br>";
 			}
 		}
@@ -81,8 +81,8 @@ public class SqlLookupBean implements Serializable {
 			vResultList = (ArrayList<Map<String, Object>>) jdbcTemplateObject
 					.query(sSQL, new LookupRowMapper());
 
-			log.debug("vResult.size()=" + vResultList.size());
-			logText = logText + "vResult.size()=" + vResultList.size() + "<br>";
+//			log.debug("vResult.size()=" + vResultList.size());
+//			logText = logText + "vResult.size()=" + vResultList.size() + "<br>";
 
 		} catch (Exception ex) {
 			logText = logText + "91 ex=" + ex.getMessage() + "<br>";
@@ -92,7 +92,7 @@ public class SqlLookupBean implements Serializable {
 			try {
 				releaseConnection();
 			} catch (Exception e) {
-				log.error(e.getMessage());
+//				log.error(e.getMessage());
 				logText = logText + "99 ex=" + e.getMessage() + "<br>";
 			}
 		}

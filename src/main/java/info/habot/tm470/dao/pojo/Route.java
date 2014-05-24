@@ -1,6 +1,6 @@
 package info.habot.tm470.dao.pojo;
 
-import java.util.List;
+import java.util.ArrayList;
 
 /**
 * Route - Holds alternative routes that avoid the road where the event is located.
@@ -12,7 +12,7 @@ import java.util.List;
 public class Route {
 	private int route_id;
 	private int event_id;
-	private List<Integer> link_list;
+	private ArrayList<Integer> link_list;
 	private int is_valid;
 	private String dateCreated;
 	
@@ -29,10 +29,10 @@ public class Route {
 	public void setEvent_id(int event_id) {
 		this.event_id = event_id;
 	}
-	public List<Integer> getLink_list() {
+	public ArrayList<Integer> getLink_list() {
 		return link_list;
 	}
-	public void setLink_list(List<Integer> link_list) {
+	public void setLink_list(ArrayList<Integer> link_list) {
 		this.link_list = link_list;
 	}
 	public int getIs_valid() {
