@@ -22,8 +22,19 @@ public class VMSUnitEquipmentWrapper implements RowMapper<VMSUnitEquipment> {
 		vMSUnitEquipment.setVmsType(rs.getString("vmsType"));
 		vMSUnitEquipment.setVmsTypeCode(rs.getString("vmsTypeCode"));
 
-		Point2D.Double point = new Point2D.Double();
-		point = (Point2D.Double) rs.getObject("location");
+//		Point2D.Double point = new Point2D.Double();
+//		point = (Point2D.Double) rs.getObject("location");
+		
+		Point2D.Double point = null;	
+		try {
+			
+			Double latitude = rs.getDouble("x");
+			Double longtitude = rs.getDouble("y");
+			point = new Point2D.Double(latitude, longtitude);
+
+		} catch (ClassCastException ex) {
+			point = null;
+		}
 
 		vMSUnitEquipment.setLocation(point);
 		vMSUnitEquipment.setLinearElementReferenceModel(rs

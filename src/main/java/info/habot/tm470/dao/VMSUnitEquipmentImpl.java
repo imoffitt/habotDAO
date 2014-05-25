@@ -56,8 +56,6 @@ public class VMSUnitEquipmentImpl implements VMSUnitEquipmentDAO {
 				vMSUnitEquipment.getLinearElementIdentifier(),
 				vMSUnitEquipment.getDistanceAlong());
 
-		// log.debug("Created VMS_Unit_Equipment = " +
-		// vMSUnitEquipment.toString());
 		return;
 	}
 
@@ -69,7 +67,7 @@ public class VMSUnitEquipmentImpl implements VMSUnitEquipmentDAO {
 	 * )
 	 */
 	public VMSUnitEquipment getVMSUnitEquipment(Integer id) {
-		String SQL = "select * from VMS_Unit_Equipment where equipmentId = ?";
+		String SQL = "select *, X(location) AS x, Y(location) AS y from VMS_Unit_Equipment where equipmentId = ?";
 		VMSUnitEquipment vMSUnit = jdbcTemplateObject.queryForObject(SQL,
 				new Object[] { id }, new VMSUnitEquipmentWrapper());
 		return vMSUnit;
@@ -78,12 +76,13 @@ public class VMSUnitEquipmentImpl implements VMSUnitEquipmentDAO {
 	public void delete(Integer id) {
 		String SQL = "delete from VMS_Unit_Equipment where equipmentId = ?";
 		jdbcTemplateObject.update(SQL, id);
+		
 		log.debug("Deleted VMS_Unit_Equipment with equipmentId = " + id);
 		return;
 	}
 
 	public List<VMSUnitEquipment> listVMSUnitEquipment() {
-		String SQL = "select * from VMS_Unit_Equipment";
+		String SQL = "select *, X(location) AS x, Y(location) AS y from VMS_Unit_Equipment";
 		List<VMSUnitEquipment> vMSUnit = jdbcTemplateObject.query(SQL,
 				new VMSUnitEquipmentWrapper());
 		return listVMSUnitEquipment();
@@ -112,5 +111,16 @@ public class VMSUnitEquipmentImpl implements VMSUnitEquipmentDAO {
 		log.debug("Updated vMSUnitEquipment with equipmentId = "
 				+ vMSUnitEquipment.getEquipmentId());
 		return;
+	}
+	
+	/**
+	 * @param id - The identifier of a link to look for VMS
+	 * @return a list of VMS on the specified link
+	 */
+	public List<VMSUnitEquipment> getVMSUnitOnLink(Integer id) {
+		String SQL = "select *, X(location) AS x, Y(location) AS y from VMS_Unit_Equipment where linearElementIdentifier = ? order by distanceAlong";
+		List<VMSUnitEquipment> lstVMSUnit = jdbcTemplateObject.query(SQL,
+				new Object[] { id }, new VMSUnitEquipmentWrapper());
+		return lstVMSUnit;
 	}
 }

@@ -25,6 +25,7 @@ public class StrategicEvent {
 	private String event_sub_type;
 	private Route defaultRoute;
 	private Route alternativeRoute;
+	private VMSUnitEquipment vMSUnitEquipment;
 
 	public StrategicEvent() {
 		this.capacity_reduction = 0;
@@ -176,6 +177,14 @@ public class StrategicEvent {
 		this.alternativeRoute = alternativeRoute;
 	}
 
+	public VMSUnitEquipment getvMSUnitEquipment() {
+		return vMSUnitEquipment;
+	}
+
+	public void setvMSUnitEquipment(VMSUnitEquipment vMSUnitEquipment) {
+		this.vMSUnitEquipment = vMSUnitEquipment;
+	}
+
 	@Override
 	public String toString() {
 		return "StrategicEvent [event_id=" + event_id + ", link_id=" + link_id
@@ -187,6 +196,7 @@ public class StrategicEvent {
 				+ ", consider_alternative_route=" + consider_alternative_route
 				+ ", active=" + active + ", event_sub_type=" + event_sub_type
 				+ ", defaultRoute=" + defaultRoute + ", alternativeRoute="
-				+ alternativeRoute + "]";
+				+ alternativeRoute + ", vMSUnitEquipment=" + vMSUnitEquipment
+				+ "]";
 	}
 }
