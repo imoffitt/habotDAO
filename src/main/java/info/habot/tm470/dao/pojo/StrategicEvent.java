@@ -23,6 +23,10 @@ public class StrategicEvent {
 	private boolean active;
 
 	private String event_sub_type;
+	public static final String SUBTYPE_NORMAL = "Normal";
+	public static final String SUBTYPE_INFORMATION = "Information";
+	public static final String SUBTYPE_DIVERSION = "Diversion";
+	
 	private Route defaultRoute;
 	private Route alternativeRoute;
 	private VMSUnitEquipment vMSUnitEquipment;
