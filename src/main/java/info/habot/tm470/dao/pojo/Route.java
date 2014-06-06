@@ -15,7 +15,7 @@ public class Route {
 	private ArrayList<Integer> link_list;
 	private int is_valid;
 	private String dateCreated;
-	
+	private float travelTime;
 	
 	public int getRoute_id() {
 		return route_id;
@@ -47,11 +47,18 @@ public class Route {
 	public void setDateCreated(String dateCreated) {
 		this.dateCreated = dateCreated;
 	}
+	public float getTravelTime() {
+		return travelTime;
+	}
+	public void setTravelTime(float travelTime) {
+		this.travelTime = travelTime;
+	}
 	
 	@Override
 	public String toString() {
-		return "Route [route_id=" + route_id + ", link_list=" + link_list
-				+ ", is_valid=" + is_valid + ", dateCreated=" + dateCreated
+		return "Route [route_id=" + route_id + ", event_id=" + event_id
+				+ ", link_list=" + link_list + ", is_valid=" + is_valid
+				+ ", dateCreated=" + dateCreated + ", travelTime=" + travelTime
 				+ "]";
 	}	
 }
